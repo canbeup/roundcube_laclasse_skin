@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="112"
+   height="135"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="contactpic.svg"
+   inkscape:export-filename="/home/daniel/Programmation/Laclasse Mail v3/contactpic.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="45.373984"
+     inkscape:cy="62.857143"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="870"
+     inkscape:window-height="956"
+     inkscape:window-x="1"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-917.36218)">
+    <g
+       transform="matrix(4.9560182,0,0,4.9560182,-3.936505,-7017.1283)"
+       id="g603"
+       style="fill:#444444;fill-opacity:1">
+      <path
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#444444;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         d="m 2.34375,1602.7772 c -0.4584025,0.088 -0.8207234,0.5334 -0.8125,1 l 0,21.6545 c 5.24e-5,0.5236 0.4764155,0.9999 1,1 l 19.125,0 c 0.523584,-1e-4 0.999948,-0.4764 1,-1 l 0,-21.6545 c -5.2e-5,-0.5236 -0.476416,-0.9999 -1,-1 l -19.125,0 c -0.062316,-0.01 -0.1251837,-0.01 -0.1875,0 z m 1.1875,2 17.125,0 0,19.6545 -17.125,0 z m 8.5625,3.4005 c -2.5927303,0 -4.71875,1.9171 -4.71875,4.5098 0,1.3518 0.5792661,2.5746 1.5,3.4375 -2.416561,1.1377 -4.2505166,3.5177 -4.96875,6.375 -0.1300792,0.5804 0.3739911,1.2146 0.96875,1.2188 l 14.4375,0 c 0.594759,0 1.098829,-0.6384 0.96875,-1.2188 -0.718263,-2.8574 -2.552199,-5.2373 -4.96875,-6.375 0.920734,-0.8629 1.5,-2.0857 1.5,-3.4375 0,-2.5927 -2.12602,-4.5098 -4.71875,-4.5098 z m 0,1.7911 c 1.51185,0 2.71875,1.2068 2.71875,2.7187 0,1.5119 -1.2069,2.7188 -2.71875,2.7187 -1.51185,0 -2.71875,-1.2068 -2.71875,-2.7187 0,-1.5119 1.2069,-2.7188 2.71875,-2.7187 z m 0,7.4374 c 2.495726,0 4.65348,1.7432 5.75,4.3126 l -11.46875,0 c 1.0970607,-2.5668 3.224602,-4.3125 5.71875,-4.3126 z"
+         id="circle605"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccssccccccsscscsccccc" />
+    </g>
+  </g>
+</svg>
