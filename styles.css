@@ -804,7 +804,7 @@ a.iconlink.upload {
 }
 
 .minimal #topline span.username {
-	display: inline-block;
+	display: none;
 	padding-top: 2px;
 }
 
@@ -821,7 +821,7 @@ a.iconlink.upload {
 }
 
 .minimal #taskbar .button-logout {
-	display: inline-block;
+	display: none;
 }
 
 .minimal #taskbar .button-inner {
