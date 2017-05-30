@@ -254,6 +254,7 @@
 #contactpic img {
 	max-width: 112px;
 	visibility: inherit;
+	background-color: #1aa1cc;
 }
 
 #contactpic.droptarget {
