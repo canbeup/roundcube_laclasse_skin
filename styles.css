@@ -1161,15 +1161,22 @@ ul.listing {
 
 ul.listing li {
 /*	background-color: #d9ecf4;*/
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   padding-bottom: 8px;
   padding-top: 8px;
 }
 
 ul.listing li ul {
 	border-top: 1px solid #c5c5c5;
+}
+
+ul#subscription-table.listing li {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 ul.listing li.droptarget,
@@ -1370,7 +1377,7 @@ table.records-table {
 	border: 0;
 }
 
-.records-table thead td {
+.records-table thead th {
 	color: #777;
 	font-size: 11px;
 	font-weight: bold;
@@ -1384,14 +1391,15 @@ table.records-table {
 	padding: 8px 7px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	text-align: left; /*Because it was overriden by user agent stylesheets*/
 }
 
-.records-table.sortheader thead td {
+.records-table.sortheader thead th {
 	padding: 0;
 }
 
-.records-table thead td a,
-.records-table thead td span {
+.records-table thead th a,
+.records-table thead th span {
 	display: block;
 	padding: 7px 7px;
 	color: #777;
@@ -1412,7 +1420,7 @@ table.records-table {
 }
 
 /* This padding-left minus the focused padding left should be half of the focused border-left */
-.records-table thead tr td:first-child,
+.records-table thead tr th:first-child,
 .records-table tbody tr td:first-child {
 	border-left: 0;
 	padding-left: 6px;

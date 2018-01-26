@@ -350,7 +350,7 @@ function rcube_mail_ui()
         }
       });
 
-    $('iframe').load(function(e){
+    $('iframe').on("load",function(e){
       // this = iframe
       try {
         var doc = this.contentDocument ? this.contentDocument : this.contentWindow ? this.contentWindow.document : null;
@@ -751,7 +751,7 @@ function rcube_mail_ui()
   {
     if (p && p.props && p.props.menu == 'attachmentmenu')
       show_popupmenu('attachmentmenu');
-    else
+    else if(p && p.props && p.props.menu != 'folder-selector')
       show_listoptions();
   }
 
