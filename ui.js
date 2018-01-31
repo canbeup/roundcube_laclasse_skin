@@ -308,7 +308,7 @@ function rcube_mail_ui()
 
       var select = $(this),
         parent = select.parent(),
-        height = Math.max(select.height(), 26) - 2,
+        height = Math.max(select.outerHeight(), 26) - 2,
         width = select.width() - 22,
         title = $('option', this).first().text();
 

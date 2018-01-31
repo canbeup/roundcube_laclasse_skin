@@ -1095,8 +1095,9 @@ a.iconlink.upload {
 .uibox .boxtitle,
 .uibox .listing thead th {
 /*	background: #b0ccd7;*/
-  background: #eee;
+	background: #eee;
 	color: #777;
+	text-align: left;
 /*	border-radius: 4px 4px 0 0;*/
 }
 
@@ -1793,25 +1794,25 @@ ul.proplist li {
 #quicksearchbar input {
 	width: 176px;
 	margin: 0;
-	padding: 3px 30px 3px 34px;
+	padding: 8px 30px 8px 34px;
 	height: 18px;
 /*	background: #f1f1f1;*/
 	border-color: #ababab;
 	font-weight: bold;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 .searchbox #searchmenulink,
 #quicksearchbar #searchmenulink {
 	position: absolute;
-	top: 5px;
+	top: 9px;
 	left: 6px;
 }
 
 .searchbox #searchreset,
 #quicksearchbar #searchreset {
 	position: absolute;
-	top: 4px;
+	top: 9px;
 	right: 1px;
 }
 
@@ -2011,8 +2012,8 @@ a.menuselector {
 a.menuselector .handle {
 	display: inline-block;
 	padding: 0 32px 0 6px;
-	height: 20px;
-	line-height: 19px;
+	height: 32px;
+	line-height: 31px;
 	text-shadow: 0px 1px 1px #fff;
 	background: url(images/selector.png?v=799c.181) right center no-repeat;
 	border-radius: 4px;
