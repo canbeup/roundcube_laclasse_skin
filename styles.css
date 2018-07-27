@@ -980,11 +980,11 @@ a.iconlink.upload {
 }
 
 .minimal #mainscreen {
-	top: 62px;
+	top: 15px;
 }
 
 .minimal #mainscreen.offset {
-	top: 102px;
+	top: 15px;
 }
 
 .extwin #mainscreen {
