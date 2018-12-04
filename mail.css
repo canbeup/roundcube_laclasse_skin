@@ -1334,6 +1334,12 @@ div.message-partheaders .headers-table td.header {
 #compose-contacts #directorylist {
 /*	border-bottom: 4px solid #c7e3ef;*/
 	border-bottom: 2px solid #cccccc;
+	overflow: auto;
+	position: absolute;
+	left: 0px;
+	right: 2px;
+	bottom: 44px;
+	top: 75px;
 }
 
 #compose-contacts .scroller {
