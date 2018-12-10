@@ -490,7 +490,7 @@ table.messagelist.fixedcopy {
 .webkit .messagelist tr th.threads,
 .webkit .messagelist tr th.status,
 .webkit .messagelist tr th.flag,
-.webkit .messagelist tr th.priority { 
+.webkit .messagelist tr th.priority {
 	width: 26px;
 }
 
@@ -648,7 +648,7 @@ table.messagelist.fixedcopy {
 }
 
 .messagelist thead tr th.status span.status,
-.messagelist tr th.threads a.listmenu, 
+.messagelist tr th.threads a.listmenu,
 .messagelist thead tr th.flag span.flagged,
 .messagelist thead tr th.attachment span.attachment {
 	font-size: 0;
@@ -1338,7 +1338,7 @@ div.message-partheaders .headers-table td.header {
 	position: absolute;
 	left: 0px;
 	right: 2px;
-	bottom: 44px;
+	max-height: 40%;
 	top: 75px;
 }
 
