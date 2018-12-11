@@ -1332,14 +1332,7 @@ div.message-partheaders .headers-table td.header {
 }
 
 #compose-contacts #directorylist {
-/*	border-bottom: 4px solid #c7e3ef;*/
 	border-bottom: 2px solid #cccccc;
-	overflow: auto;
-	position: absolute;
-	left: 0px;
-	right: 2px;
-	max-height: 40%;
-	top: 75px;
 }
 
 #compose-contacts .scroller {
@@ -1646,3 +1639,25 @@ div.message-partheaders .headers-table td.header {
 	margin: 4px 0;
 }
 
+/*
+ * Have both addressbook and contacts scrollable in the same element
+ * so they can be scrollable and improve mobile usability
+ */
+
+.column-flexbox {
+	display: flex;
+	flex-flow: column;
+	align-items: stretch;
+	height: 100%;
+}
+
+.contacts-scroller {
+	overflow-x: hidden;
+	overflow-y: auto;
+	flex: 1 1 auto;
+}
+
+#compose-contacts .boxfooter {
+	position: relative;
+	overflow: initial;
+}
