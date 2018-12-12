@@ -524,10 +524,10 @@ function rcube_mail_ui()
       minheight = 300,
 
     bh = (form.height() - bottom.position().top);
-    ovflw = minheight - bh;
-    btns = ovflw > -100 ? 0 : 40;
+    // ovflw = minheight - bh;
+    // btns = ovflw > -100 ? 0 : 40;
     bottom.css('height', Math.max(minheight, bh) + 'px');
-    form.css('overflow', ovflw > 0 ? 'auto' : 'hidden');
+    // form.css('overflow', ovflw > 0 ? 'auto' : 'hidden');
 
     w = body.parent().width() - 5;
     h = body.parent().height() - 16;

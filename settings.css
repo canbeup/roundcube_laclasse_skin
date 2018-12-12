@@ -25,6 +25,7 @@
 	left: 212px;
 	right: 0;
 	bottom: 0;
+	min-width: 600px;
 }
 
 #sectionslist {

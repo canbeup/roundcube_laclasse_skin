@@ -25,6 +25,7 @@
 	left: 232px;
 	right: 0;
 	bottom: 0;
+	min-width: 500px;
 	z-index: 3;
 }
 
@@ -963,7 +964,10 @@ h3.subject {
 
 #full-headers {
 	position: relative;
-	top: 10px;
+}
+
+.previewheader #full-headers {
+    top: 10px;
 }
 
 div.more-headers {
@@ -1415,7 +1419,8 @@ div.message-partheaders .headers-table td.header {
 	left: 0;
 	right: 0;
 	bottom: 0px;
-	overflow: hidden;
+	min-width: 500px;
+    overflow: auto;
 }
 
 #composeheaders {
@@ -1526,6 +1531,7 @@ div.message-partheaders .headers-table td.header {
 	position: relative;
 	width: 100%;
 	height: 200px;
+	min-height: 300px;
 }
 
 #composebodycontainer {
@@ -1554,6 +1560,7 @@ div.message-partheaders .headers-table td.header {
 	font-family: monospace;
 	font-size: 9pt;
 	outline: none;
+	min-height: 300px;
 /*	box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.2);
 	-moz-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.2);
 	-webkit-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.2);
@@ -1574,6 +1581,7 @@ div.message-partheaders .headers-table td.header {
 	top: 1px;
 	bottom: 0;
 	width: 240px;
+	min-height: 300px;
 	background: #f0f0f0;
 	border-style: solid;
 	border-color: #f0f0f0 #f0f0f0 #f0f0f0 #ddd;
