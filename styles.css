@@ -333,7 +333,7 @@ input.button:active {
 
 .pagenav .buttongroup a.button,
 .pagenav .buttongroup a.button:hover {
-	padding: 1px 5px;
+	padding: 8px;
 	margin-bottom: 0;
 }
 
@@ -390,10 +390,10 @@ input.button:active {
 }
 
 .pagenav a.changeformat.text span.inner {
-	background-position: -7px -1874px;
+	background-position: -7px -1876px;
 }
 .pagenav a.changeformat.text.selected span.inner {
-	background-position: -29px -1874px;
+	background-position: -29px -1876px;
 }
 
 .pagenav .countdisplay {
@@ -874,7 +874,7 @@ a.iconlink.upload {
 	border-width: 0 4px 4px;
 	border-color: #4444 transparent;*/
 	/* reduce the damage in FF3.0 */
-	display: block; 
+	display: block;
 	width: 0;
 	z-index: 251;
 }
@@ -2364,7 +2364,7 @@ ul.toolbarmenu li span.copy {
 	border-width: 6px 6px 6px 0;
 	border-color: transparent #444;
 	/* reduce the damage in FF3.0 */
-	display: block; 
+	display: block;
 	width: 0;
 	z-index: 251;
 }
